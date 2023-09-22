@@ -4,7 +4,7 @@ on:
   push:
     branches: [ "maya--trenser-patch1" ]
   pull_request:
-    branches: [ "maya--trenser-patch1" ]
+    branches: [ "master" ]
 
 jobs:
   build:
