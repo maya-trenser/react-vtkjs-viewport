@@ -26,3 +26,7 @@ jobs:
       run: |
         yarn install
         npm run build && npm run build:release
+    - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: dist # The folder the action should deploy.
