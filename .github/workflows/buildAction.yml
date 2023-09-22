@@ -2,9 +2,9 @@ name: NodeJS with Webpack
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "maya--trenser-patch1" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "maya--trenser-patch1" ]
 
 jobs:
   build:
